@@ -3,15 +3,21 @@ package com.example.effe_21ca;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
 
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.effe_21ca.databinding.FragmentDashboardBinding;
+import com.example.effe_21ca.ui.dashboard.DashboardViewModel;
 
 import java.security.Permission;
 
@@ -19,6 +25,28 @@ import java.security.Permission;
 public class upload extends AppCompatActivity {
     private static final int PERMISSION_CODE = 1001;
     private static final int IMAGE_PICK_CODE = 1000;
+    private DashboardViewModel dashboardViewModel;
+    private FragmentDashboardBinding binding;
+
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        dashboardViewModel =
+                new ViewModelProvider(this).get(DashboardViewModel.class);
+
+        binding = FragmentDashboardBinding.inflate(inflater, container, false);
+        View root = binding.getRoot();
+
+//        final TextView textView = binding.textDashboard;
+//        dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+//            @Override
+//            public void onChanged(@Nullable String s) {
+//                textView.setText(s);
+//            }
+//        });
+        return root;
+    }
+
+
 
     Button button;
 
@@ -70,6 +98,11 @@ public class upload extends AppCompatActivity {
             }
         }
     }
+//    @Override
+//    public void onDestroyView() {
+//        super.onDestroy();
+//        binding = null;
+//    }
 
 //    @Override
 //    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

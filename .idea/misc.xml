@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_about_ca.xml" value="0.264" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_about_us.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_app_issues.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_contacts.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_login.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_main2.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_notification.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_sign_in.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_sign_in_up2.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_sign_up.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_splash_screen.xml" value="0.16893115942028986" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/activity_upload.xml" value="0.2" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/fragment_dashboard.xml" value="0.16757246376811594" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/fragment_login.xml" value="0.16757246376811594" />
+        <entry key="..\:/JANHAVI/OneDrive/Desktop/Effe-21CA/app/src/main/res/layout/list_item1_leaderboard.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/Shubham/Documents/GitHub/Effe-21CA/app/src/main/res/drawable-v24/ic_multicity.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/Shubham/Documents/GitHub/Effe-21CA/app/src/main/res/drawable-v24/ic_participation.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/Shubham/Documents/GitHub/Effe-21CA/app/src/main/res/drawable/ic_social.xml" value="0.12777777777777777" />
